@@ -1,4 +1,4 @@
-#logos_tgamebot
+# Logos Game Bot
 
 Telegram Game Bot for Sakhalin Intellectual Club "Logos".
 
