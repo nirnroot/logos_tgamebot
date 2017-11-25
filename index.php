@@ -121,6 +121,8 @@ function processMessage($message) {
     // incoming text message
     $text = $message['text'];
 
+// WORK HERE
+
     if (strpos($text, "/start") === 0) {
       apiRequestJson("sendMessage", array('chat_id' => $chat_id, "text" => 'Hell                                                                                                                                                             o', 'reply_markup' => array(
         'keyboard' => array(array('Hello', 'Hi')),
